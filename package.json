@@ -1,0 +1,19 @@
+{
+   "name": "@leptonite/devmailer",
+   "version": "0.0.0",
+   "main": "build/index.js",
+   "license": "WTFPL",
+   "type": "module",
+   "scripts": {
+      "build": "tsc -p ."
+   },
+   "dependencies": {
+      "@leptonite/parse-int-strict": "0.1.0",
+      "smtp-server": "3.9.0"
+   },
+   "devDependencies": {
+      "@types/node": "16.11.9",
+      "@types/smtp-server": "3.5.7",
+      "typescript": "4.5.2"
+   }
+}

@@ -1,0 +1,7 @@
+*
+!/docker
+!/src
+!/devmailer.sh
+!/package.json
+!/tsconfig.json
+!/yarn.lock
