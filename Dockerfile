@@ -1,4 +1,4 @@
-FROM node:16-alpine3.14 AS builder
+FROM node:16-alpine3.15 AS builder
 
 USER node:node
 
@@ -13,7 +13,7 @@ RUN cd /home/node/devmailer \
 
 
 
-FROM node:16-alpine3.14
+FROM node:16-alpine3.15
 
 RUN apk add dovecot runuser \
  && rm -r /etc/ssl/dovecot

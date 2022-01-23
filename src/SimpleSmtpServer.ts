@@ -4,7 +4,6 @@ import { createWriteStream, promises as fs, Stats } from 'fs';
 import * as path from 'path';
 
 import { SMTPServer, SMTPServerDataStream, SMTPServerSession } from 'smtp-server';
-import { callbackify } from 'util';
 
 import { CliError } from './CliError.js';
 import { maildirFilename } from './maildirFilename.js';
